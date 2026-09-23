@@ -44,12 +44,6 @@
 				<Event name="OnChange">ПокупательПриИзменении</Event>
 			</Events>
 		</InputField>
-		<InputField name="Договор" id="26">
-			<DataPath>Объект.Договор</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДоговорКонтекстноеМеню" id="27"/>
-			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="28"/>
-		</InputField>
 		<InputField name="РасчетныйСчетПокупателя" id="5">
 			<DataPath>Объект.РасчетныйСчетПокупателя</DataPath>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -66,6 +60,12 @@
 			<BorderColor>style:BorderColor</BorderColor>
 			<ContextMenu name="РасчетныйСчетПокупателяКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="РасчетныйСчетПокупателяExtendedTooltip" id="22"/>
+		</InputField>
+		<InputField name="Договор" id="26">
+			<DataPath>Объект.Договор</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="27"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="28"/>
 		</InputField>
 		<InputField name="РасчетныйСчет" id="6">
 			<DataPath>Объект.РасчетныйСчет</DataPath>
