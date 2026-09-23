@@ -40,6 +40,9 @@
 			<Wrap>false</Wrap>
 			<ContextMenu name="ПокупательКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ПокупательExtendedTooltip" id="21"/>
+			<Events>
+				<Event name="OnChange">ПокупательПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Договор" id="26">
 			<DataPath>Объект.Договор</DataPath>
